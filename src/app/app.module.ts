@@ -16,6 +16,7 @@ import { HomeComponent } from './home';
 import { LoginComponent } from './login';
 
 import { JwtInterceptor, ErrorInterceptor } from './helpers';
+import {RegisterComponent} from "./register";
 
 
 
@@ -25,7 +26,8 @@ import { JwtInterceptor, ErrorInterceptor } from './helpers';
     AppComponent,
     RoutingComponents,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
 
   ],
   imports: [
